@@ -15,8 +15,9 @@ public class Main {
         String commitPath = scanner.nextLine();
 
         System.out.println(command.writeByCommitId(commitId,commitPath));//Write to file and return a message if
-                                                                            // it successfully written or any error occurred
-        command.readByCommitId(commitId, commitPath);//Return a list of lines or null if it not find that commit id.
+                                                                            // it successfully written or return error message if
+                                                                                //  any errors occurred
+        command.readByCommitId(commitId, commitPath);//Return a list of lines or null if it not find that commit id from file.
 
     }
 }
