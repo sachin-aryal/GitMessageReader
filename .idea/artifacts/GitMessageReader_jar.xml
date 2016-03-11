@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GitMessageReader:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GitMessageReader_jar</output-path>
+    <root id="archive" name="GitMessageReader.jar">
+      <element id="module-output" name="GitMessageReader" />
+    </root>
+  </artifact>
+</component>
