@@ -17,6 +17,8 @@ public class Main {
         System.out.println(command.writeByCommitId(commitId,commitPath));//Write to file and return a message if
                                                                             // it successfully written or return error message if
                                                                                 //  any errors occurred
+                                                                                //Save the text file in the path that entered by 
+                                                                                //user
         command.readByCommitId(commitId, commitPath);//Return a list of lines or null if it not find that commit id from file.
 
     }
